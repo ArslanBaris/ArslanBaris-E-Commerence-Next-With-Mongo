@@ -1,13 +1,17 @@
+"use client"
 import Image from "next/image"
 import { Rating } from "@mui/material"
 import textClip from "@/utils/TextClip"
+import { useRouter } from "next/navigation"
 
 export const ProductCard = ({ product }: { product: any }) => {
+    const router = useRouter()
+    
 
     let productRating = product?.reviews?.reduce((acc: number, review: any) => acc + review.rating, 0) / product?.reviews?.length 
 
     return (
-        <div className="w-[240px] shadow-lg p-2 rounded-lg ">
+        <div onClick={()=> router.push(`/product/${product.id}`)} className="w-[240px] shadow-lg p-2 rounded-lg ">
             <div className="relative h-[150px]">
                 <Image src={product.image} alt="" fill className="object-contain" />
             </div>
