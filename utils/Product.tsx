@@ -30,7 +30,7 @@ export const products = [
           createdDate: "2023-07-06T06:08:33.067Z",
           user: {
             id: "6475af156bad4917456e6e1e",
-            name: "Berkant Kaya",
+            name: "Barış Arslan",
             email: "example@gmail.com",
             emailVerified: null,
             image: "https://b2861582.smushcdn.com/2861582/wp-content/uploads/2023/02/splash-01-605-v1.png?lossy=2&strip=1&webp=1",
@@ -49,7 +49,7 @@ export const products = [
           createdDate: "2023-07-06T06:08:33.067Z",
           user: {
             id: "6475af156bad4917456e6e1e",
-            name: "Berkant Kaya",
+            name: "Barış Arslan",
             email: "example@gmail.com",
             emailVerified: null,
             image: "https://b2861582.smushcdn.com/2861582/wp-content/uploads/2023/02/splash-01-605-v1.png?lossy=2&strip=1&webp=1",
@@ -82,7 +82,7 @@ export const products = [
           createdDate: "2023-06-26T15:53:44.483Z",
           user: {
             id: "6499b184b0e9a8c8709821d3",
-            name: "Berkant Kaya",
+            name: "Barış Arslan",
             email: "example1@gmail.com",
             emailVerified: null,
             image:
@@ -102,7 +102,7 @@ export const products = [
           createdDate: "2023-06-26T14:30:40.998Z",
           user: {
             id: "6475af156bad4917456e6e1e",
-            name: "Berkant Kaya",
+            name: "Barış Arslan",
             email: "example@gmail.com",
             emailVerified: null,
             image: "https://b2861582.smushcdn.com/2861582/wp-content/uploads/2023/02/splash-01-605-v1.png?lossy=2&strip=1&webp=1",
